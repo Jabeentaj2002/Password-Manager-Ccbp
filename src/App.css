@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.password-manager-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  padding: 20px 70px 20px 70px;
+}
+
+.title-container {
+  display: flex;
+}
+
+.app-logo {
+  height: 80px;
+  width: 170px;
+  margin-bottom: 20px;
+}
+
+.inputs-output-container {
+  background-color: #5763a5;
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.inputs-inner-container {
+  background-color: #454f84;
+  padding: 10px;
+  border-radius: 7px;
+  width: 50%;
+}
+
+.input-heading {
+  color: #f8fafc;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.website-logo {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.website-input {
+  background-color: #ffffff;
+  border: 0;
+  outline: none;
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.img-container {
+  height: 40px;
+  width: 50px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1px;
+}
+
+.add-btn {
+  height: 30px;
+  width: 70px;
+  background-color: #0b69ff;
+  border: 0;
+  color: #ffffff;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.password-manager-img {
+  width: 40%;
+  height: 250px;
+  margin-left: 40px;
+}
+
+.passwords-container {
+  display: flex;
+  align-items: center;
+}
+
+.list-item {
+  border: solid 1px #b6c3ca;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  padding: 5px;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.initial-container {
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.initial {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stars {
+  width: 50px;
+  height: 30px;
+}
+
+.delete-img {
+  height: 20px;
+  width: 20px;
+}
+
+.delete-btn {
+  border: 0;
+  background-color: transparent;
+  align-self: center;
+}
+
+.password-container {
+  background-color: #5763a5;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.password-count {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.password-text {
+  color: #f8fafc;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.count {
+  border: solid 1px #f8fafc;
+  color: #f8fafc;
+  padding: 0 5px 0 5px;
+  border-radius: 5px;
+}
+
+.search {
+  height: 30px;
+  width: 40px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1px;
+}
+
+.search-input {
+  border: 0;
+  outline: none;
+  height: 30px;
+  width: 150px;
+  background-color: #ffffff;
+}
+
+.search-input {
+  height: 30px;
+  width: 150px;
+  background-color: #ffffff;
+}
+
+.horizontal-line {
+  border: solid 1px #c3caea;
+  width: 100%;
+}
+
+show-password-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.label-text {
+  color: #f8fafc;
+  font-weight: 500;
+}
+
+.checkbox-input {
+  border: 0;
+}
+
+.website-text {
+  color: #f8fafc;
+  margin-bottom: 0;
+}
+
+.username-text {
+  color: #f8fafc;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.password-text {
+  color: #f8fafc;
+  margin-top: 0;
+}
+
+/* ['yellow', 'green', 'orange', 'brown', 'blue'] */
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.no-passwords {
+  color: #f8fafc;
+  text-align: center;
+}
